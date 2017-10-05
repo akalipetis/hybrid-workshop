@@ -164,7 +164,7 @@ In order to create the service, we'll need to define:
 The command to create a service is the following one:
 
 ```bash
-docker service create --port 8088:80 <user-name>/linux_tweet_app
+docker service create --publish 8088:80 <user-name>/linux_tweet_app
 ```
 
 Services are application building blocks (although in many cases an application will only have one service, such as this example). Services are based on a single Docker image. When you create a new service you instantiate at least one container automatically, but you can scale the number up (or down) to meet the needs of your service.
