@@ -162,6 +162,7 @@ In order to create the service, we'll need to define:
 * the `ports` that are going to be exposed
 
 The command to create a service is the following one:
+Services can only be created from the swarm master. This command must be run from the master node. 
 
 ```bash
 docker service create --publish 8088:80 <user-name>/linux_tweet_app
