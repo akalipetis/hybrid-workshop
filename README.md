@@ -27,7 +27,7 @@ In this lab we'll use a Docker CE cluster comprised of Windows and Linux nodes. 
   * [Task 4.3: Verify the Running Application](#task4.3)
 * [Task 5: Application Lifecycle Management](#Task5)
   * [Task 5.1: Upgrading the Web Front-end](#Task5.1)
-  * [Task 5.2: Scaling the Web Front-end](#Task 5.2)
+  * [Task 5.2: Scaling the Web Front-end](#Task5.2)
   * [Task 5.3: Dealing with an Application Failure](#Task5.3)
 
 ## <a name="task1"></a>Task 1: Configure the Docker CE Cluster
