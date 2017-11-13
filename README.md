@@ -94,7 +94,7 @@ Let's start with the Linux version.
 
 	> **Note**: Be sure to substitute your Docker Hub username.
 
-	The `-t` tags the iamge with a name. In our case the name indicates which DTR server and under which user's respository the image will live.
+	The `-t` tags the image with a name. In our case the name indicates which DTR server and under which user's respository the image will live.
 
 	> **Note**: Feel free to examine the Dockerfile in this directory if you'd like to see how the image is being built.
 
